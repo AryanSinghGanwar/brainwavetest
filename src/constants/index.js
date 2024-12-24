@@ -6,22 +6,22 @@ import {
   benefitImage2,
   chromecast,
   disc02,
-  discord,
+  
   discordBlack,
   facebook,
-  figma,
+  
   file02,
-  framer,
+  
   homeSmile,
   instagram,
   notification2,
   notification3,
   notification4,
-  notion,
-  photoshop,
+  
+  
   plusSquare,
-  protopie,
-  raindrop,
+  
+  
   recording01,
   recording03,
   roadmap1,
@@ -29,7 +29,7 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
-  slack,
+
   sliders04,
   telegram,
   twitter,
@@ -39,34 +39,29 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "IDS",
+    url: "#IDS_Home",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "About",
+    url: "#about",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Timeline",
+    url: "#timeline",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "FAQs",
+    url: "#faq",
   },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
+
   {
     id: "5",
-    title: "Sign in",
-    url: "#login",
+    title: "Register",
+    url: "#Register",
     onlyMobile: true,
   },
 ];
@@ -78,9 +73,10 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Innovative Challenges",
+  "Creative Collaboration",
+  "Expert Interaction",
+  "Nationwide Platform",
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,166 +90,55 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Build Strong Teams",
+    text: "Collaborate with talented individuals and form dynamic teams to tackle exciting challenges.",
+    date: "Building Team Connections",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    title: " Create Impactful Projects",
+    text: "Turn your innovative ideas into real-world solutions and showcase your technical expertise.",
+    date: "Creating Innovative Projects",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    title: "Gain Hands-On Experience",
+    text: "Work with the latest technologies and tools to enhance your skills and problem-solving abilities.",
+    date: "Upskilling",
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    title: "Expand Your Network",
+    text: "Connect with peers, mentors, and industry leaders to create lasting professional relationships.",
+    date: "Networking",
     status: "progress",
     imageUrl: roadmap4,
   },
 ];
 
-export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
 
-export const collabContent = [
-  {
-    id: "0",
-    title: "Seamless Integration",
-    text: collabText,
-  },
-  {
-    id: "1",
-    title: "Smart Automation",
-  },
-  {
-    id: "2",
-    title: "Top-notch Security",
-  },
-];
 
-export const collabApps = [
-  {
-    id: "0",
-    title: "Figma",
-    icon: figma,
-    width: 26,
-    height: 36,
-  },
-  {
-    id: "1",
-    title: "Notion",
-    icon: notion,
-    width: 34,
-    height: 36,
-  },
-  {
-    id: "2",
-    title: "Discord",
-    icon: discord,
-    width: 36,
-    height: 28,
-  },
-  {
-    id: "3",
-    title: "Slack",
-    icon: slack,
-    width: 34,
-    height: 35,
-  },
-  {
-    id: "4",
-    title: "Photoshop",
-    icon: photoshop,
-    width: 34,
-    height: 34,
-  },
-  {
-    id: "5",
-    title: "Protopie",
-    icon: protopie,
-    width: 34,
-    height: 34,
-  },
-  {
-    id: "6",
-    title: "Framer",
-    icon: framer,
-    width: 26,
-    height: 34,
-  },
-  {
-    id: "7",
-    title: "Raindrop",
-    icon: raindrop,
-    width: 38,
-    height: 32,
-  },
-];
-
-export const pricing = [
-  {
-    id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-  {
-    id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
-  },
-  {
-    id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-];
 
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "How Do I Register For CodeBizz?",
+    text: "Click on any 'Register Now' button on the website.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "What is the participation fee?",
+    text: "Just some enthusiasm. We don't charge any money!",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +146,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "What if I don't have a team or idea?",
+    text: "You are still welcome to apply for the qualification round. If you can innovate or just want to have a fun weekend, you are most welcome.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Who can participate?",
+    text: "Everyone from VNIT is welcome to apply for the qualification round..",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +163,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "When and how will the teams be shortlisted?",
+    text: "Teams will be selected for consideration based on the responses provided in the questionnaires and other established criteria.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Why should I participate in CodeBizz?",
+    text: "You will be eligible to participate in the nationwide hackathon scheduled for the month of April, with the potential to secure cash prizes in the event of victory. Otherwise, you will always get an excellent opportunity to network with like-minded people and learn many things.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

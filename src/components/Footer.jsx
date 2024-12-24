@@ -1,6 +1,7 @@
 import React from "react";
 import Section from "./Section";
 import { socials } from "../constants";
+import { idsxecell } from "../assets";
 
 const Footer = () => {
   return (
@@ -9,6 +10,11 @@ const Footer = () => {
         <p className="caption text-n-4 lg:block">
           © {new Date().getFullYear()}. All rights reserved.
         </p>
+        <div><img src={idsxecell} width={190} height={40} alt="idsxecell" /></div>
+
+         {/*  */}
+
+
 
         <ul className="flex gap-5 flex-wrap">
           {socials.map((item) => (

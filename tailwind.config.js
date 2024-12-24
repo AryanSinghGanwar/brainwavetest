@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         color: {
-          1: "#AC6AFF",
+          1: "#00D4FC",
           2: "#FFC876",
           3: "#FF776F",
           4: "#7ADB78",
@@ -38,6 +38,7 @@ export default {
         sans: ["var(--font-sora)", ...fontFamily.sans],
         code: "var(--font-code)",
         grotesk: "var(--font-grotesk)",
+        sora1: "var(--font-sora1)",
       },
       letterSpacing: {
         tagline: ".15em",
